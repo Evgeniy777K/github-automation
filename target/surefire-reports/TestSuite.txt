@@ -1,0 +1,17 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 30.958 s <<< FAILURE! - in TestSuite
+searchResultPage(com.kolchiba.top.HurtMePlenty.test.SearchPageTest)  Time elapsed: 22.131 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//md-option[@id='select_option_65']"}
+  (Session info: chrome=88.0.4324.150)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.0', revision: '2ecb7d9a', time: '2018-10-31T20:09:30'
+System info: host: 'DESKTOP-D4SKJ2E', ip: '192.168.0.118', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.150, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\Evheniy\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:53124}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 8c58270f546506573c833fd93b0b7eac
+*** Element info: {Using=xpath, value=//md-option[@id='select_option_65']}
+	at com.kolchiba.top.HurtMePlenty.test.SearchPageTest.searchResultPage(SearchPageTest.java:20)
+

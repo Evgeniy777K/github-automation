@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="30.958" tests="1" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="surefire.suiteXmlFiles" value="src/test/resources/testng-smoke.xml"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1255"/>
+    <property name="java.class.path" value="D:\Git Hub\HurtMePlenty\target\test-classes;D:\Git Hub\HurtMePlenty\target\classes;C:\Users\Evheniy\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.0\selenium-java-3.141.0.jar;C:\Users\Evheniy\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.0\selenium-api-3.141.0.jar;C:\Users\Evheniy\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.0\selenium-chrome-driver-3.141.0.jar;C:\Users\Evheniy\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.0\selenium-edge-driver-3.141.0.jar;C:\Users\Evheniy\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.0\selenium-firefox-driver-3.141.0.jar;C:\Users\Evheniy\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.0\selenium-ie-driver-3.141.0.jar;C:\Users\Evheniy\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.0\selenium-opera-driver-3.141.0.jar;C:\Users\Evheniy\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.0\selenium-remote-driver-3.141.0.jar;C:\Users\Evheniy\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.0\selenium-safari-driver-3.141.0.jar;C:\Users\Evheniy\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.0\selenium-support-3.141.0.jar;C:\Users\Evheniy\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\Evheniy\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Evheniy\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\Evheniy\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\Evheniy\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\Evheniy\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\Evheniy\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\Evheniy\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\Evheniy\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\Evheniy\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\Evheniy\.m2\repository\io\github\bonigarcia\webdrivermanager\3.3.0\webdrivermanager-3.3.0.jar;C:\Users\Evheniy\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\Evheniy\.m2\repository\com\google\code\gson\gson\2.8.5\gson-2.8.5.jar;C:\Users\Evheniy\.m2\repository\org\apache\commons\commons-lang3\3.8.1\commons-lang3-3.8.1.jar;C:\Users\Evheniy\.m2\repository\org\apache\httpcomponents\httpclient\4.5.6\httpclient-4.5.6.jar;C:\Users\Evheniy\.m2\repository\org\apache\httpcomponents\httpcore\4.4.10\httpcore-4.4.10.jar;C:\Users\Evheniy\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Evheniy\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\Evheniy\.m2\repository\org\rauschig\jarchivelib\1.0.0\jarchivelib-1.0.0.jar;C:\Users\Evheniy\.m2\repository\org\apache\commons\commons-compress\1.18\commons-compress-1.18.jar;C:\Users\Evheniy\.m2\repository\org\jsoup\jsoup\1.11.3\jsoup-1.11.3.jar;C:\Users\Evheniy\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\Users\Evheniy\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\Evheniy\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Users\Evheniy\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\Evheniy\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\Evheniy\.m2\repository\org\apache\logging\log4j\log4j-api\2.11.1\log4j-api-2.11.1.jar;C:\Users\Evheniy\.m2\repository\org\apache\logging\log4j\log4j-core\2.11.1\log4j-core-2.11.1.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Jerusalem"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_231\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\Evheniy\AppData\Local\Temp\surefire5834380827283605376\surefirebooter2498263490757211538.jar C:\Users\Evheniy\AppData\Local\Temp\surefire5834380827283605376 2021-02-12T09-37-01_070-jvmRun1 surefire8903692200075324686tmp surefire_08246567392698716175tmp"/>
+    <property name="surefire.test.class.path" value="D:\Git Hub\HurtMePlenty\target\test-classes;D:\Git Hub\HurtMePlenty\target\classes;C:\Users\Evheniy\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.0\selenium-java-3.141.0.jar;C:\Users\Evheniy\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.0\selenium-api-3.141.0.jar;C:\Users\Evheniy\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.0\selenium-chrome-driver-3.141.0.jar;C:\Users\Evheniy\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.0\selenium-edge-driver-3.141.0.jar;C:\Users\Evheniy\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.0\selenium-firefox-driver-3.141.0.jar;C:\Users\Evheniy\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.0\selenium-ie-driver-3.141.0.jar;C:\Users\Evheniy\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.0\selenium-opera-driver-3.141.0.jar;C:\Users\Evheniy\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.0\selenium-remote-driver-3.141.0.jar;C:\Users\Evheniy\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.0\selenium-safari-driver-3.141.0.jar;C:\Users\Evheniy\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.0\selenium-support-3.141.0.jar;C:\Users\Evheniy\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\Evheniy\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Evheniy\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\Evheniy\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\Evheniy\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\Evheniy\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\Evheniy\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\Evheniy\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\Evheniy\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\Evheniy\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\Evheniy\.m2\repository\io\github\bonigarcia\webdrivermanager\3.3.0\webdrivermanager-3.3.0.jar;C:\Users\Evheniy\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\Evheniy\.m2\repository\com\google\code\gson\gson\2.8.5\gson-2.8.5.jar;C:\Users\Evheniy\.m2\repository\org\apache\commons\commons-lang3\3.8.1\commons-lang3-3.8.1.jar;C:\Users\Evheniy\.m2\repository\org\apache\httpcomponents\httpclient\4.5.6\httpclient-4.5.6.jar;C:\Users\Evheniy\.m2\repository\org\apache\httpcomponents\httpcore\4.4.10\httpcore-4.4.10.jar;C:\Users\Evheniy\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Evheniy\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\Evheniy\.m2\repository\org\rauschig\jarchivelib\1.0.0\jarchivelib-1.0.0.jar;C:\Users\Evheniy\.m2\repository\org\apache\commons\commons-compress\1.18\commons-compress-1.18.jar;C:\Users\Evheniy\.m2\repository\org\jsoup\jsoup\1.11.3\jsoup-1.11.3.jar;C:\Users\Evheniy\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\Users\Evheniy\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\Evheniy\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Users\Evheniy\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\Evheniy\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\Evheniy\.m2\repository\org\apache\logging\log4j\log4j-api\2.11.1\log4j-api-2.11.1.jar;C:\Users\Evheniy\.m2\repository\org\apache\logging\log4j\log4j-core\2.11.1\log4j-core-2.11.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Evheniy"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_231\jre"/>
+    <property name="basedir" value="D:\Git Hub\HurtMePlenty"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\Evheniy\AppData\Local\Temp\surefire5834380827283605376\surefirebooter2498263490757211538.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_231\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_231\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_231\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_231\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_231\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_231\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_231\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_231\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_231-b11"/>
+    <property name="user.name" value="Evheniy"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_231\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1255"/>
+    <property name="browser" value="chrome"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Evheniy\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Evheniy\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_231"/>
+    <property name="user.dir" value="D:\Git Hub\HurtMePlenty"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_231\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;&quot;C:\Program Files (x86)\Common Files\Oracle\Java\javapath; C:\Program Files\apache-maven-3.6.3-bin\apache-maven-3.6.3\bin; C:\Program Files\Java\jdk-10.0.2&quot;;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Git\cmd;C:\Program Files (x86)\AOMEI Backupper;C:\Users\Evheniy\AppData\Local\Android\Sdk\platform-tools;C:\ProgramData\chocolatey\bin;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\apache-maven-3.6.3-bin\apache-maven-3.6.3\bin;C:\Program Files\apache-maven-3.6.3-bin\apache-maven-3.6.3\bin;C:\apache-maven-3.6.3-bin;C:\Program Files\nodejs\;&quot;C:\Users\Evheniy\AppData\Local\Microsoft\WindowsAppsC:\Program Files\apache-maven-3.6.2\bin; C:\Program Files\Java\jdk1.8.0_231&quot;;C:\Users\Evheniy\AppData\Local\Android\Sdk\platform-tools;;C:\Users\Evheniy\AppData\Local\Microsoft\WindowsApps;C:\Users\Evheniy\AppData\Roaming\npm;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.231-b11"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_231\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="searchResultPage" classname="com.kolchiba.top.HurtMePlenty.test.SearchPageTest" time="22.131">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//md-option[@id=&apos;select_option_65&apos;]&quot;}&#10;  (Session info: chrome=88.0.4324.150)&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.0&apos;, revision: &apos;2ecb7d9a&apos;, time: &apos;2018-10-31T20:09:30&apos;&#10;System info: host: &apos;DESKTOP-D4SKJ2E&apos;, ip: &apos;192.168.0.118&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_231&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.150, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\Evheniy\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:53124}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 8c58270f546506573c833fd93b0b7eac&#10;*** Element info: {Using=xpath, value=//md-option[@id=&apos;select_option_65&apos;]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//md-option[@id='select_option_65']"}
+  (Session info: chrome=88.0.4324.150)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.0', revision: '2ecb7d9a', time: '2018-10-31T20:09:30'
+System info: host: 'DESKTOP-D4SKJ2E', ip: '192.168.0.118', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.150, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\Evheniy\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:53124}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 8c58270f546506573c833fd93b0b7eac
+*** Element info: {Using=xpath, value=//md-option[@id='select_option_65']}
+	at com.kolchiba.top.HurtMePlenty.test.SearchPageTest.searchResultPage(SearchPageTest.java:20)
+</failure>
+    <system-out><![CDATA[2021-02-12 09:37:15,996 INFO  [main] com.kolchiba.top.HurtMePlenty.page.FindNewPage.openPage(FindNewPage.java:100) Page opened
+2021-02-12 09:37:17,299 INFO  [main] com.kolchiba.top.HurtMePlenty.page.FindNewPage.inputInSearchBox(FindNewPage.java:112) Page loaded
+2021-02-12 09:37:29,755 INFO  [main] com.kolchiba.top.HurtMePlenty.page.FindNewPage.activateComputeEngine(FindNewPage.java:134) Engine activated
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Starting ChromeDriver 88.0.4324.96 (68dba2d8a0b149a1d3afac56fa74648032bcf46b-refs/branch-heads/4324@{#1784}) on port 11704
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Feb 12, 2021 9:37:09 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+</testsuite>

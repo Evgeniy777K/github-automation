@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Smoke]">
+  <test thread-count="5" verbose="0" name="SearchPage(failed)">
+    <classes>
+      <class name="com.kolchiba.top.HurtMePlenty.test.SearchPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="searchResultPage"/>
+          <include name="stopBrowser"/>
+        </methods>
+      </class> <!-- com.kolchiba.top.HurtMePlenty.test.SearchPageTest -->
+    </classes>
+  </test> <!-- SearchPage(failed) -->
+</suite> <!-- Failed suite [Smoke] -->

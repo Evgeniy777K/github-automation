@@ -1,0 +1,6 @@
+com\kolchiba\top\HurtMePlenty\driver\DriverSingleton.class
+com\kolchiba\top\HurtMePlenty\page\FindNewPage.class
+com\kolchiba\top\HurtMePlenty\test\CommonConditions.class
+com\kolchiba\top\HurtMePlenty\page\AbstractPage.class
+com\kolchiba\top\HurtMePlenty\utils\TestListener.class
+com\kolchiba\top\HurtMePlenty\test\SearchPageTest.class
